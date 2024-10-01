@@ -27,7 +27,7 @@
         border-color: var(--stroke-highlight);
         
         & p{
-            background-color: var(--text-tertiary);
+            color: var(--text-tertiary);
             
         }
 
