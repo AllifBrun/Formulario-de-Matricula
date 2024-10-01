@@ -29,6 +29,7 @@ main{
 }
 
 aside{
+    
     background-color: var(--surface-secondary);
     padding: 4rem;
     
