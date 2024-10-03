@@ -39,8 +39,41 @@ position: relative;
 
         
     }
+
     &:hover, &:focus-within{
         border: 1px solid var(--stroke-highlight);
     }
+    
 
+   
+
+    &:hover{
+        .radio-image{
+
+            
+            background-image: url(../../assets/icons/radio-hover.svg);
+            width: 1.5rem;
+            height: 1.5rem;
+    
+            position: absolute;
+            top: .5rem;
+            left: .5rem;
+        }
+    }
+
+    &:focus-within{
+
+        .radio-image{
+
+            
+            background-image: url(../../assets/icons/radio-checked.svg);
+            width: 1.5rem;
+            height: 1.5rem;
+    
+            position: absolute;
+            top: .5rem;
+            left: .5rem;
+        }
+
+    }
 }
